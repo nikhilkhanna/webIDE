@@ -1,0 +1,17 @@
+<head>
+  <title>textEditor</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button id = "eval">Eval</button>
+  <p>Type your code in the shared editor.</p>
+  <textarea rows="4" id = "codeArea">{{codeArea}}</textarea>
+  <p id = "result"> </p>
+</template>
+
